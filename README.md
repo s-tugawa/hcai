@@ -13,8 +13,9 @@ pip3 install networkx pandas numpy seaborn
 ## Usage
 ### Calculating network features 
 ```bash
-python3 calc_feature.py data/ba.txt
+python3 calc_feature.py foo.txt
 ```
+foo.txt is assumed to be a tab-separated edge list.
 
 ### Calculating centrality
 ```bash
